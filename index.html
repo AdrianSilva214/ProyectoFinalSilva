@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuerdas Adrián</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./estilo2.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+
+  <header id="titulo">
+    <h1>Cuerdas Adrián</h1>
+</header>
+
+<!-- Contenedor -->
+<div id="contenedor" class="row row-cols-1 row-cols-md-3 g-4"></div>
+
+<!-- Carrito -->
+<div id="carrito-contenedor"></div>
+
+<!-- Precio Total -->
+<div id="precio-total" class="card text-center" style="width: 18rem; display: none;">
+  <div class="card-header">
+    <h5 class="card-title">Carrito de compra</h5>
+  </div>
+  <div>
+    <p class="card-text" id="total-carrito">Precio total: $0</p>
+    <button id="comprar-btn" class="btn btn-success">Comprar</button>
+    <button id="borrar-carrito" class="btn btn-secondary">Borrar Carrito
+    </button>
+  </div>
+</div>
+
+<footer id="formulario">
+  <!-- Formulario -->
+  <form id="formulario">
+    <h5>Nombre y apellido
+      <input id="nombre" type="text" placeholder="Nombre completo">
+    </h5>
+    <br>
+    <h5>E-mail
+      <input id="email" type="email" placeholder="E-mail">
+    </h5>
+    <br>
+    <h5>Puedes dejarnos un mensaje
+      <input id="mensaje" type="text">
+    </h5>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+
+</footer>
+
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./codigo5.js"></script>
+
+</body>
+
+</html>

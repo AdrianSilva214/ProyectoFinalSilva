@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Guitarra Criolla",
+        "precio": 50,
+        "imagen": "./img/criolla2.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Guitarra Acústica",
+        "precio": 60,
+        "imagen": "./img/acustica.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Guitarra electroacústica",
+        "precio": 70,
+        "imagen": "./img/electroac.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Bajo de 4 cuerdas",
+        "precio": 90,
+        "imagen": "./img/bajo.jpg"
+    },{
+        "id": 3,
+        "nombre": "ukelele soprano",
+        "precio": 100,
+        "imagen": "./img/ukelelesoprano.jpg"
+    },{
+        "id": 3,
+        "nombre": "Ukelele concierto",
+        "precio": 110,
+        "imagen": "./img/ukeleleconcierto2.jpg"
+    }
+]
+
